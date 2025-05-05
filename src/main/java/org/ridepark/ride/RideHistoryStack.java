@@ -1,7 +1,7 @@
 package org.ridepark.ride;
 
 
-import org.ridepark.exception.EmptyQueueException;
+import org.ridepark.exception.*;
 
 import java.util.*;
 
