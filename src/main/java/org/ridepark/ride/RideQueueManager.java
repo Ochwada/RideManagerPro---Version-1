@@ -26,6 +26,7 @@ public class RideQueueManager {
 
     /**
      * Constructs a new {@code RideQueueManager} with an empty guest queue.
+     * i.e. Constructs an empty {@code RideQueueManager} using a LinkedList as the underlying data structure.
      */
     public RideQueueManager() {
         this.guestQueue = new LinkedList<>();
