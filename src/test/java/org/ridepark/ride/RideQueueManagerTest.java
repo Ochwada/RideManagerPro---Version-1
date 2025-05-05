@@ -87,7 +87,7 @@ public class RideQueueManagerTest {
         List<Guest> riders = queueManager.startRide(3);
 
         assertEquals(1, riders.size());
-        assertEquals("Linda", riders.getFirst().getName());
+        assertEquals("Linda", riders.get(0).getName());
     }
 
 
